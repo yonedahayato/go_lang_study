@@ -21,6 +21,8 @@ func main() {
     sums := Sums{
         {1, 3},
         {2, 4},
-        {3, 5}.
+        {3, 5},
     }
+
+    fmt.Println(sums.Adds())
 }
